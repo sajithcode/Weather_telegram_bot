@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const axios = require("axios");
 
-const token = '7198643418:AAHSyJgmWN-zH92n9E3yXv9VyIWPi8IyVRc';
+const token = 'YOUR_TELEGRAM_BOT_TOKEN';
 
 const bot = new TelegramBot(token, {polling: true});
 
@@ -11,7 +11,7 @@ bot.on("message", async (msg) => {
   
     try {
       const response = await axios.get(
-        `https://api.openweathermap.org/data/2.5/weather?q=${userInput}&appid=ea05f0b6617d998492f421c4335d3bba`
+        `YOUR_OPENWEATHERMAP_API_KEY`
       );
       const data = response.data;
       const weather = data.weather[0].description;
