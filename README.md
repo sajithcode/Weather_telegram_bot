@@ -49,11 +49,3 @@ Contributions are welcome! If you find any issues or want to add new features, p
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-As for the .gitignore file, it typically includes node_modules to prevent your dependencies from being uploaded to your repository. Here's a basic .gitignore file for a Node.js project:
-
-```
-node_modules/
-```
-
-You can create a file named `.gitignore` in the root directory of your project and paste the above content into it. This will ensure that the `node_modules` folder is not included when you push your code to GitHub.
