@@ -1,4 +1,3 @@
-Sure, here's a basic README.md file for your Telegram bot project:
 
 ---
 
